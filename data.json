@@ -12,7 +12,9 @@
             "live_link": "https://papageg.github.io/unit-1/",
             "github_link": "https://github.com/papageg/unit-1",
             "image_urls": [
-                
+                "static/images/unit1.jpg",
+                "static/images/rsz_1unit1.jpg",
+                "static/images/unit1second.jpg"
             ]
 
         }, 
@@ -27,7 +29,11 @@
             ],
             "live_link":"https://papageg.github.io/techdegreeproject2/#",
             "github_link": "https://github.com/papageg/techdegreeproject2",
-            "image_urls":
+            "image_urls": [
+                "static/images/unit2.jpg",
+                "static/images/rsz_unit2.jpg",
+                "static/images/unit2lastpage.jpg"
+            ]
         }, 
         {
             "projectName": "Interactive Form", 
@@ -43,7 +49,12 @@
             ],
             "live_link":"https://papageg.github.io/TD-3/index.html",
             "github_link": "https://github.com/papageg/TD-3",
-            "image_urls":
+            "image_urls": [
+                    "static/images/unit3.jpg",
+                    "static/images/rsz_unit3.jpg",
+                    "static/images/unit3errormessages.jpg"
+                ]
+            ]
         }, 
         {
             "projectName": "Phrase Hunter", 
@@ -59,7 +70,11 @@
             ],
             "live_link": "https://papageg.github.io/project-4-td/",
             "github_link": "https://github.com/papageg/project-4-td",
-            "image_urls":
+            "image_urls":[
+                "static/images/unit4.jpg",
+                "static/images/rsz_unit4.jpg",
+                "static/images/unit4losescreen.jpg"
+            ]
         }, 
         {
             "projectName": "API Employee List", 
@@ -77,7 +92,11 @@
             ],
             "live_link": "https://papageg.github.io/td-project-5/index.html",
             "github_link": "https://github.com/papageg/td-project-5",
-            "image_urls":
+            "image_urls":[
+                "static/images/unit5.jpg",
+                "static/images/rsz_unit5.jpg",
+                "static/images/unit5secondarypic.jpg"
+            ]
         }   
         ]
         
