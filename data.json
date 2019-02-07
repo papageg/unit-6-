@@ -1,0 +1,83 @@
+{
+    "projects": [
+        {
+            "projectName": "Random Quote Generator", 
+            "id":"0",
+            "description": "List of Quotes randomly chosen and displayed with random colored background.",
+            "technologies": [
+                "HTML",
+                "CSS", 
+                "JavaScript"
+            ],
+            "live_link":,
+            "github_link":,
+            "image_urls":
+
+        }, 
+        {
+            "projectName": "Pagination", 
+            "id":"1",
+            "description": "List of Students with 10 students per page.",
+            "technologies": [
+                "HTML",
+                "CSS", 
+                "JavaScript"
+            ],
+            "live_link":,
+            "github_link":,
+            "image_urls":
+        }, 
+        {
+            "projectName": "Interactive Form", 
+            "id":"2",
+            "description": "A form that takes in name, email and payment issue based of items chosen.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "normalize.css",
+                "JQuery", 
+                "Regex",
+                "JavaScript"
+            ],
+            "live_link":,
+            "github_link":,
+            "image_urls":
+        }, 
+        {
+            "projectName": "Phrase Hunter", 
+            "id":"3",
+            "description": "A game of choseing letters to guess a phrase with 5 lives before losing.",
+            "technologies": [
+                "HTML",
+                "Google Fonts",
+                "CSS",
+                "animate.css", 
+                "JavaScript",
+                "Ajax"
+            ],
+            "live_link":,
+            "github_link":,
+            "image_urls":
+        }, 
+        {
+            "projectName": "API Employee List", 
+            "id":"4",
+            "description": "App that grabs a list of employees from a API and each employee who is clicked on will give more information about that employee.",
+            "technologies": [
+                "HTML",
+                "CSS", 
+                "Normalize.css",
+                "Git",
+                "JavaScript",
+                "Ajax",
+                "Fetch API",
+                "Json"
+            ],
+            "live_link":,
+            "github_link":,
+            "image_urls":
+        }   
+        ]
+        
+
+}
