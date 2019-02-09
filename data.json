@@ -16,7 +16,6 @@
                 "static/images/rsz_1unit1.jpg",
                 "static/images/unit1second.jpg"
             ]
-
         }, 
         {
             "projectName": "Pagination", 
@@ -54,7 +53,6 @@
                     "static/images/rsz_unit3.jpg",
                     "static/images/unit3errormessages.jpg"
                 ]
-            
         }, 
         {
             "projectName": "Phrase Hunter", 
@@ -70,7 +68,7 @@
             ],
             "live_link": "https://papageg.github.io/project-4-td/",
             "github_link": "https://github.com/papageg/project-4-td",
-            "image_urls":[
+            "image_urls": [
                 "static/images/unit4.jpg",
                 "static/images/rsz_unit4.jpg",
                 "static/images/unit4losescreen.jpg"
@@ -92,13 +90,13 @@
             ],
             "live_link": "https://papageg.github.io/td-project-5/index.html",
             "github_link": "https://github.com/papageg/td-project-5",
-            "image_urls":[
+            "image_urls": [
                 "static/images/unit5.jpg",
                 "static/images/rsz_unit5.jpg",
                 "static/images/unit5secondarypic.jpg"
             ]
         }   
-        ]
+    ]
         
 
 }

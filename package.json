@@ -9,6 +9,7 @@
   "author": "greg gordon",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "node": "^11.9.0",
     "pug": "^2.0.3"
