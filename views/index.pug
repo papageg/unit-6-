@@ -4,10 +4,8 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
       h1 Portfolio
 
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
       p.lead.text-light
         | Make the web beautiful one page at a time.
   article.grid-container.portfolio-index
@@ -17,15 +15,8 @@ block content
       p
         each project in projects
             .cell
-              a(href='live_link')
+              a(href=`${project.live_link}`, target="_blank")
                 img.thumbnail(src=`${project.image_urls[1]}`)
                 h5= project.projectName
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
-      
-      //- Here's what the Pug for each project example should look like. 
 
-      //- .cell
-      //-   a(href='#')
-      //-   img.thumbnail(src='https://placehold.it/550x550')
-      //-   h5 Title
       
