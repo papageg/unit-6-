@@ -23,6 +23,7 @@ app.get('/about', (req, res, next) => {
     res.render('about');
 });
 
+
 app.use((req, res, next) => {
     console.log("A Error has happened!");
     const err = new Error('Error!!!');
