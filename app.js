@@ -24,6 +24,7 @@ app.get('/about', (req, res, next) => {
 });
 
 
+
 app.use((req, res, next) => {
     console.log("A Error has happened!");
     const err = new Error('Error!!!');

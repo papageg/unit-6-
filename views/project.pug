@@ -7,17 +7,14 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Use interploation to dynamically add the project title.
         h1= title
 
-        //- Use interploation to dynamically add the project description.
         p.lead.text-light
           | #{description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        //- Use an `each` iterator to replace the li tags below and interploation to dynamically add the technologies used in each project.
 
         ul
           each item in technologies 
@@ -28,5 +25,5 @@ block content
         a.button.expanded(href=`${links[1]}`, target="_blank") GitHub Repo
     
 
-    each img in everyImg
-      img.image(src=`${img}`)
+      each img in everyImg
+        img.image(src= `${img}`)
