@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,p{
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Cinzel', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -75,9 +75,9 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Old Standard TT', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(255, 255, 255);
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -89,13 +89,15 @@ a:hover{
   }
 
 .portfolio-breadcrumb{
+  background-color: #8E793E;
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
 }
 
+
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Old Standard TT','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -109,7 +111,7 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #8E793E;
   padding-bottom: 40px;
 }
 
@@ -153,4 +155,13 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+/* ADD CSS FOR COURSE some was added in code above so left the code above*/
+.thumbnail {
+  border-color: #8E793E;
+}
+
+.aloneBottom{
+  margin-bottom: none;
 }

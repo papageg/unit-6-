@@ -3,16 +3,17 @@ extends layout.pug
 block content 
   article.grid-container.portfolio-intro
     div
-
+      //- Title of the page
       h1 Portfolio
-
+      
+      //-Small comment to give a statement
       p.lead.text-light
         | Make the web beautiful one page at a time.
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-      
+        //-This code will go to data.json projects and for each one will get the data then i pull the data with anchors/images/h5 and display
         each project in projects
             .cell
               a(href=`/projects/${project.id}`)

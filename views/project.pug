@@ -7,23 +7,26 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
+        //-The title call will get the title of the project chosen. This comes from the project.js file.
         h1= title
 
         p.lead.text-light
+          //-Description will grab the dresciption for project chosen. Connected with project.js
           | #{description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
+        //-Technologies is taking in project.js for the project chosen.
         h6 Technologies
 
-
+        //-The each function takes technologies data and creates a li for each one to hold the data.
         ul
           each item in technologies 
                   li #{item}
 
-    
+        //- Each anchor element adds a link taking you to the respective link
         a.button.expanded(href=`${links[0]}`, target="_blank") Live Demo
         a.button.expanded(href=`${links[1]}`, target="_blank") GitHub Repo
     
-
+      //-Generates a image for each project.
       each img in everyImg
         img.image(src= `${img}`)

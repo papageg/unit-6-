@@ -6,12 +6,14 @@ block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
-
+        //-About Pages Name/Title of Article
         h1 Greg Gordon
 
+        //- Title for About page.
         p.lead.text-light
           | Full Stack JavaScript Developer
 
+        //- Elavator pitch
         .portfolio-bio
           p
             |  Greg Gordon started coding in 2016 where he learned about teamtreehouse.com. 
@@ -19,6 +21,8 @@ block content
             |Then in 2018 he decided it was something he wanted to get into professionally and started the teamtreehouse tech degree. 
             |In March of 2019 Greg completed the tech degree and started to work on his portfolio to jump into being a junior web developer.
             |Greg started working on his first company greggordonweb.com ( GGW ).
+      
+      //-Side bar that has all skills the user has gathered.
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
 
@@ -34,14 +38,16 @@ block content
           li JSON
           li AJAX
         h6 Contact Info
-
+        //- Unordered list that has anchors that when clicked takes you directly to either email or calls the number.
         ul
-          li 1 (714) 251-8820
-          li greggordon98@gmail.com
+          a(href='tel:+1-714-251-8820') 1(714)251-8820 
+          a(href='mailto:greggordon98@gmail.com') greggordon98@gmail.com
 
+
+        //- Links to LinkedIn Github and Twitter
         a.button.expanded(href='https://www.linkedin.com/feed/?trk=nav_back_to_linkedin', target="_blank") LinkedIn
         a.button.expanded(href='https://github.com/papageg', target="_blank") GitHub
         a.button.expanded(href='https://twitter.com/greggordon98?lang=en', target="_blank") Twitter
-  nav.grid-container.portfolio-breadcrumb
+  nav.grid-container.portfolio-breadcrumb.aloneBottom
     a(href='/') ← Back
   
