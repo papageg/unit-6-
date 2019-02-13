@@ -1,6 +1,6 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Cinzel', 'Merriweather', serif;
 }
 
   h5{
@@ -54,6 +54,12 @@ a:hover{
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
+}
+
+.logo {
+  display: inline-block;
+  height: 50px;
+  width: 1-%;
 }
 
 .portfolio-me{
