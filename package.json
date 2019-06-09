@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "engines":{
+  "engines": {
     "node": "11.9.0"
   },
   "author": "greg gordon",
@@ -15,6 +15,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "git": "^0.1.5",
     "node": "^11.9.0",
     "pug": "^2.0.3"
   }
