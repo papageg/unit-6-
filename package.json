@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  "engines":{
+    "node": "11.9.0"
+  },
   "author": "greg gordon",
   "license": "MIT",
   "dependencies": {
