@@ -48,7 +48,13 @@ app.use((err, req, res, next) => {
 
 
 //Server start
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000!')
-  });
-  module.exports = app;
+// app.listen(3000, () => {
+//     console.log('The application is running on localhost:3000!')
+//   });
+//   module.exports = app;
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+app.listen(port);
